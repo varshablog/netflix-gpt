@@ -78,6 +78,7 @@
     color: white;
     font-size: larger;
     padding: 12px 34px;
+    cursor: pointer;
 }
 .new-User p{
     color: #bcbcbc;
@@ -88,4 +89,26 @@
 .new-User p span{
     color: white;
     cursor: pointer;
+}
+
+.errmessage{
+    color:red;
+}
+
+.signOut{
+    float: right;
+    width: 92px;
+    height: 45px;
+    margin: 12px 15px;
+    border: none;
+    cursor: pointer;
+   
+}
+.span-text{
+    
+    font-size: 17px;
+    color: red;
+}
+ .span-text:hover{
+    border-bottom: 1px solid black;
 }

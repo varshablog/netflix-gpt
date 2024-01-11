@@ -1,3 +1,20 @@
+# Netflix GPT
+-create React App
+-Header
+-Routing Of App
+-Login Form
+-Sign Up Form
+-Form Validation
+-useRef Hook
+-firebase Setup
+-Deploying our app to production
+-Create sign Up user account
+-Implement sign In User APi
+-Created Redux Store with UserSlice
+-Implement Sign Out
+-Call Update Profile Api
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
