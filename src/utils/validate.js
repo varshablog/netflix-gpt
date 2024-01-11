@@ -19,7 +19,7 @@ export const checkValidateSignUpData=(email,passward,name,mobile)=>{
    if(name.length === 0) {
       return "Please Enter Name First";
    }else if(!isValidName) return "Please Enter Valid Name";
-  
+   
    if(!isValidMobile) return "Mobile Number is not valid";
    if(!isValidPassward) return "Passward Is Not Valid";
    if(!isValidEmail) return "Please Enter a valid email address";

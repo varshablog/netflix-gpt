@@ -73,7 +73,7 @@ const Login = () => {
       createUserWithEmailAndPassword(
         auth,
         email.current.value,
-        passward.current.value
+        passward.current.value 
       )
         .then((userCredential) => {
           const user = userCredential.user;
