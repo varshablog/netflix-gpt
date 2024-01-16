@@ -12,8 +12,12 @@
 -Implement sign In User APi
 -Created Redux Store with UserSlice
 -Implement Sign Out
-
 -Call Update Profile Api
+-BugFix-update profile problem
+-BugFix-If User LogOut User Cannot access Browse page
+-Unsubscribing onAuthStateChanged API
+-Register TMDB website & Create an app & get access Token
+-Go inside developer.themovie.org and get data from Now Playing Movies list
 
 
 # Getting Started with Create React App
