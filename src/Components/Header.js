@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { auth } from '../utils/firebase';
 import { useNavigate } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { addUser, removeUser } from '../utils/userSlice';
 import { LOGO } from '../utils/constants';
 
@@ -10,6 +10,8 @@ import { LOGO } from '../utils/constants';
 const Header = () => {
   const navigate=useNavigate();
   const dispatch=useDispatch();
+  const userData=useSelector(store=>store.user);
+  
   const handleSignOut=()=>{
 
     signOut(auth).then(() => {
@@ -42,7 +44,7 @@ const Header = () => {
   return (
     <div className="Header">
        <img className="w-48" src={LOGO} alt="logo" />
-      <button className="signOut"><span onClick={handleSignOut}className="span-text">Sign Out</span></button>
+        { userData && <button className="signOut"><span onClick={handleSignOut}className="span-text">Sign Out</span></button>}
     </div>  
   )
 }

@@ -19,6 +19,15 @@
 -Register TMDB website & Create an app & get access Token
 -Go inside developer.themovie.org and get data from Now Playing Movies list
 
+/Browse Page/
+-Header Component
+-Main Container
+  -Video background
+  -Video Information
+-Secondary Container
+  -Movie List * n (n-Number of Movie List)
+  -cards * n
+
 
 # Getting Started with Create React App
 

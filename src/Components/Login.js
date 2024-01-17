@@ -153,7 +153,7 @@ const Login = () => {
           )}
 
           <p className="errmessage">{errMessage}</p>
-          <button onClick={handleButtonClick}>
+          <button className="loginButton" onClick={handleButtonClick}>
             {isSignInForm ? "Sign In" : "Sign Up"}
           </button>
 

@@ -46,7 +46,7 @@
     height: 91px;
 }
 .form h2,input,button{
-   width:100%;
+   /* width:100%; */
 }
 .form h2{
    
@@ -70,7 +70,7 @@
 .form ::placeholder{
     color: #bcbcbc;
 }
-.form button{
+.loginButton{
     
     background-color: red;
     border-radius: 6px;
@@ -110,4 +110,30 @@
 }
  .span-text:hover{
     border-bottom: 1px solid black;
+}
+
+#videoTitle{
+    width: 30%;
+    position: absolute;
+    margin: 27px 28px;
+}
+#videoTitle h1{
+    font-size: xxx-large;
+}
+
+#Playbuttons button{
+    margin-right: 27px;
+    font-size: medium;
+    padding: 9px 20px;
+    border-radius: 4px;
+}
+.playBtn{
+    background-color: white;
+    border: 0.5px solid black;
+}
+.infoBtn{
+    background-color:rgba(109, 109, 110, 0.7);
+    color: white;
+    border: none;
+
 }
