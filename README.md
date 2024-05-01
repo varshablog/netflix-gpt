@@ -18,6 +18,19 @@
 -Unsubscribing onAuthStateChanged API
 -Register TMDB website & Create an app & get access Token
 -Go inside developer.themovie.org and get data from Now Playing Movies list
+-Create custom hook for now playing movies
+-Create movie slice
+-Update store with movies data
+-Planing for the main container and secondary container
+-Fetch data for trailor video
+-Updata the store with trailor video data
+-Embeeded the youtube video and make it autoplay and mute
+-And apply styling 
+-Build Secondary Component
+-Build Movie List
+-Bulid Movie Card
+-TMDB image CDN URL
+-Get different Movies API'S from TMDB And Create Hooks For Storing the Movies data to redux store
 
 /Browse Page/
 -Header Component
@@ -99,3 +112,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Assignment_Nimap
